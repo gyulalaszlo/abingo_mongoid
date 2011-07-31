@@ -38,7 +38,7 @@ class Abingo::Experiment
   end
 
   def best_alternative
-    alternatives.max do |a,b|
+    alternatives.all.max do |a,b|
       a.conversion_rate <=> b.conversion_rate
     end
   end
