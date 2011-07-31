@@ -12,8 +12,8 @@ if Rails::VERSION::MAJOR.to_i >= 3
 
   require 'action_controller'
   require 'action_controller/caching'
-  require 'active_record'
-  require 'active_record/base'
+  # require 'active_record'
+  # require 'active_record/base'
   
   require 'rails'
   require 'rails/application'
